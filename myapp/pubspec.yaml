@@ -11,12 +11,15 @@ dependencies:
     sdk: flutter
   flutter_localizations:
         sdk: flutter
+  shared_preferences: ^0.4.2
 
 dev_dependencies:
   intl_translation: ^0.17.1
   flutter_test:
     sdk: flutter
 
-
 flutter:
   uses-material-design: true
+  assets:
+    - locale/locale_en.json
+    - locale/locale_pt.json
